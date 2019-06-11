@@ -1,0 +1,459 @@
+header{
+    pointer-events: none;
+    height: auto;
+    display:block;       
+    -webkit-transition: .2s height linear;
+    -moz-transition: .2s height linear;
+    -o-transition: .2s height linear;
+    transition: .2s height linear;
+    height: 12.3vh;
+    background-image: linear-gradient(to bottom, #78787c, #858589, #939396, #a0a0a3, #aeaeb1, #b9b9bc, #c5c5c7, #d0d0d2, #dcdcdd, #e7e7e8, #f3f3f4, #ffffff);
+}
+    
+
+h1{
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 2.6vw; 
+text-align: center;
+color:rgb(52, 110, 187);
+padding-top: 1.05%;
+font-weight: medium;
+margin: 0;
+text-shadow: white;
+outline-color: white;
+width: 100%
+}
+
+h2{
+    text-align: center;
+    font-size: 0.6vw;
+    color:black;
+    font-weight: light;
+    margin:0;
+    padding-top: 1px
+}
+
+*{
+    resize: both;
+
+}
+
+body{
+
+    margin:0;
+    overflow: hidden
+    }
+
+main{
+   
+    height: 82.5vh;
+}
+
+.row{
+    margin-right: 11%;
+    margin-left: 11%;
+    height: 100%;
+    margin-top:0.3%;
+    display:flex;
+    flex-direction: column
+ 
+}
+.col a{
+    outline: 0;
+    box-sizing: border-box;
+    width: 50%;
+    display: flex;
+    padding-bottom: 0.5%;
+    flex-direction: row
+}
+
+.window_content,.installation_content{
+    justify-content: right
+}
+.doors_content,.utility_contindex.htmlent{
+    justify-content: left   
+}
+.col{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    width: 100%;
+    height: 50%;
+    display:flex;
+    justify-content: center;
+    flex-direction: row
+
+}
+
+.row img{
+    height: auto;
+    display:block;       
+    -webkit-transition: .2s height linear;
+    -moz-transition: .2s height linear;
+    -o-transition: .2s height linear;
+    transition: .2s height linear;
+    width: 85%;
+    height: 100%;    
+    padding: 0.5%;
+    transition: .5s ease
+    
+    
+}
+
+footer{
+    pointer-events: none;
+    height: auto;
+    display:block;       
+    -webkit-transition: .2s height linear;
+    -moz-transition: .2s height linear;
+    -o-transition: .2s height linear;
+    transition: .2s height linear;
+     height: 5.2vh;
+    background-color:rgb(27, 27, 27);
+    margin: 0;
+    padding: 0;
+    font-size: 0.7vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_row{
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    justify-content: center
+}
+
+.mail_footer,.phone_footer{
+    margin-left: 3%
+}
+
+.mail_footer p,.phone_footer p{
+    margin-top: 3%
+}
+.company_footer p{
+ margin-top: 1%;
+ color: rgb(60, 121, 211)
+}
+
+/* Navigation hover design */
+
+
+    /* Window hover */
+
+.hover_window{
+    opacity: 0;
+    position: absolute;
+    top: 29.5%;
+    left: 26.5%;
+    color: black;
+    transition: 0.5s;
+    font-size: 3.8vw
+}
+
+
+.window_content:hover .hover_window{
+    opacity: 0.60
+}
+
+
+.window_content:hover .grid_window{
+    opacity: 0.55
+}
+
+    /* Door hover */
+
+.hover_door{
+    opacity: 0;
+    position: absolute;
+    top: 29.5%;
+    left: 61.5%;
+    color: black;
+    transition: 0.5s;
+    font-size: 3.8vw
+}
+
+.doors_content:hover .hover_door{
+    opacity: 0.60
+}
+
+
+.doors_content:hover .grid_doors{
+    opacity: 0.55
+}
+
+    /* Install hover */
+
+.hover_install{
+    opacity: 0;
+    position: absolute;
+    top: 70%;
+    left: 24%;
+    color: black;
+    transition: 0.5s;
+    font-size: 3.8vw
+}
+
+.installation_content:hover .hover_install{
+    opacity: 0.60
+}
+
+.installation_content:hover .grid_install{
+    opacity: 0.55
+}
+
+    /* Utility hover */
+
+.hover_utility{
+    opacity: 0;
+    position: absolute;
+    top: 70%;
+    left: 59%;
+    color: black;
+    transition: 0.5s;
+    font-size: 3.8vw
+}
+
+.utility_content:hover .hover_utility{
+    opacity: 0.60
+}
+
+
+.utility_content:hover .grid_utility{
+    opacity: 0.55
+}
+
+
+
+
+
+/*windows.html navigation design*/ 
+
+
+
+.window_row{
+    margin-top:0.3%;
+    height: 100%;
+    width: 100%;
+    display:flex;
+    margin-left: 7%;
+    padding-right: 5%;
+    flex-direction: row
+}
+
+
+.window_row a{
+    outline: 0;
+        box-sizing: border-box;
+        width: 50%;
+        display: flex;
+        padding-bottom: 0.5%;
+        flex-direction: column
+ }
+
+ .window_row img{
+    height: auto;
+    display:block;       
+    -webkit-transition: .2s height linear;
+    -moz-transition: .2s height linear;
+    -o-transition: .2s height linear;
+    transition: .2s height linear;
+    width: 70%;
+    height: 70%;    
+    padding: 0.5%;
+    transition: .5s ease
+ }
+
+  /* left image hover */
+
+ .hover_brugmann_window{
+    position: absolute;
+    top: 72%;
+    left: 13.5%;
+    color: red;
+    font-size: 2vw
+
+}
+
+.grid_brugmann_window:hover{
+    opacity: 0.60
+}
+
+
+ /* right image hover */
+
+.hover_blueevo_window{
+    position: absolute;
+    top: 72%;
+    left: 63%;
+    color: rgb(5, 41, 95);
+    font-size: 2vw
+
+}
+
+
+.grid_blueevo_window:hover{
+    opacity: 0.60
+}
+
+
+/* doors.html navigation design */
+
+
+
+
+.doors_row{
+    margin-top:0.3%;
+    height: 100%;
+    width: 100%;
+    display:flex;
+    margin-left: 7%;
+    padding-right: 5%;
+    flex-direction: row
+}
+
+
+.doors_row a{
+    outline: 0;
+        box-sizing: border-box;
+        width: 50%;
+        display: flex;
+        padding-bottom: 0.5%;
+        flex-direction: column
+ }
+
+ .doors_row img{
+    height: auto;
+    display:block;       
+    -webkit-transition: .2s height linear;
+    -moz-transition: .2s height linear;
+    -o-transition: .2s height linear;
+    transition: .2s height linear;
+    width: 70%;
+    height: 70%;    
+    padding: 0.5%;
+    transition: .5s ease
+ }
+
+   /* left image hover */
+  
+ .hover_brugmann_doors{
+    position: absolute;
+    top: 72%;
+    left: 13.5%;
+    color:red;
+    font-size: 2vw
+
+}
+
+.grid_brugmann_doors:hover{
+    opacity: 0.60
+}
+
+
+ 
+  /* right image hover */
+
+.hover_blueevo_doors{
+    position: absolute;
+    top: 72%;
+    left: 63%;
+    color: rgb(5, 41, 95);
+    font-size: 2vw
+
+}
+
+
+.grid_blueevo_doors:hover{
+    opacity: 0.60
+}
+
+/* Description html-s design */
+
+ .desc_row{
+    margin-top:0.3%;
+    height: 100%;
+    width: 100%;
+    display:flex;
+    margin-left: 2%;
+    flex-direction: row
+ }
+
+ .desc_row img{
+     pointer-events: none;
+     width: 42%;
+     height:80%;
+     left: 5%;
+     top: 5%;
+ }
+
+ .desc_row span{
+     padding-top: 5%
+ }
+
+h3{
+    color: rgb(44, 139, 216);
+    font-size: 1.5vw;
+    font-weight: light
+
+}
+
+.desc_row p{
+    font-weight: light
+}
+
+/* Delivery html design */
+
+ .delivery_row{
+    margin-top:0.3%;
+    height: 100%;
+    width: 100%;
+    display:flex;
+    margin-left: 2%;
+    flex-direction: row
+ }
+
+ .delivery_row img{
+    pointer-events: none;
+    width: 23%;
+    height:47%;
+    margin-left: 5%;
+    margin-top: 5%
+}
+
+.delivery_row span{
+    padding-top: 5%;
+    margin-left: 8%
+}
+
+.delivery_row p{
+    font-weight: light
+}
+
+/* Installation html design */
+
+.install_row{
+    margin-top:0.3%;
+    height: 100%;
+    width: 100%;
+    display:flex;
+    margin-left: 2%;
+    flex-direction: row
+ }
+
+ .install_row img{
+    pointer-events: none;
+    width: 36%;
+    height:57%;
+    margin-left: 1%;
+    margin-top: 5%
+}
+
+.install_row span{
+    padding-top: 5%;
+    margin-left: 2%
+}
+
+.install_row p{
+    font-weight: light
+}
